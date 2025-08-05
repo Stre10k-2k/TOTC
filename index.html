@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOTC</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responcive.css">
     <link rel="icon" href="./imgs/Group 112.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,20 @@
 <body>
     <header>
         <nav class="nav_bar">
-            <img src="./imgs/Group 112.png" alt="">
+            <div>
+                <img class="dropdown_btn" src="./imgs/Group 112.png" alt="">
+                <div class="dropdown_item">
+                    <ul>
+                        <li class="nav_item"><a class="nav_link" href="">Home</a></li>
+                        <li class="nav_item"><a class="nav_link" href="">Courses</a></li>
+                        <li class="nav_item"><a class="nav_link" href="">Careers</a></li>
+                        <li class="nav_item"><a class="nav_link" href="">Blog</a></li>
+                        <li class="nav_item"><a class="nav_link" href="">About Us</a></li>
+                        <li class="nav_item"><button class="btn login">Login</button></li>
+                        <li class="nav_item"><button class="btn signun">Sign un</button></li>
+                    </ul>
+                </div>
+            </div>
             <ul class="nav_list">
                 <li class="nav_item"><a class="nav_link" href="">Home</a></li>
                 <li class="nav_item"><a class="nav_link" href="">Courses</a></li>
@@ -160,6 +173,60 @@
             </div>
             <button class="one_btn">See more features</button>
         </section>
+        <section class="say">
+            <div class="say_container">
+                <h1 class="say_title">What They Say?</h1>
+                <p class="say_subtitle">TOTC has got more than 100k positive ratings <br> from our users around the world. </p>
+                <p class="say_subtitle">Some of the students and teachers were <br> greatly helped by the Skilline.</p>
+                <p class="say_subtitle">Are you too? Please give your assessment</p>
+                <button class="say_btn">Write your assessment</button>
+            </div>
+            <img src="./imgs/Screenshot 2025-08-05 092204.png" alt="">
+        </section>
+        <section class="lastest">
+            <div>
+                <img src="./imgs/Group 40.png" alt="">
+                <button class="news_btn">NEWS</button>
+                <h1 class="lastest_title">Class adds $30 million to its balance sheet for <br>a Zoom-friendly edtech solution</h1>
+                <p class="lastest_subtitle">Class, launched less than a year ago by Blackboard <br> co-founder Michael Chasen, integrates exclusively...</p>
+                <a class="lastest_link" href="#">Read more</a>
+            </div>
+            <ul>
+                <li class="lastest_item">
+                    <img src="./imgs/Rectangle 33.png" alt="">
+                    <div class="lastest_item_container">
+                        <h1 class="lastest_item_title">Class Technologies Inc. Closes $30 Million <br>Series A Financing to Meet High Demand</h1>
+                        <p class="lastest_item_subtitle">Class Technologies Inc., the company that <br> created Class,...</p>
+                    </div>
+                </li>
+                <li class="lastest_item">
+                    <img src="./imgs/Group 42.png" alt="">
+                    <div class="lastest_item_container">
+                        <h1 class="lastest_item_title">Zoom’s earliest investors are betting <br> millions on a better Zoom for schools</h1>
+                        <p class="lastest_item_subtitle">Zoom was never created to be a consumer <br>product. Nonetheless, the...</p>
+                    </div>
+                </li>
+                <li class="lastest_item">
+                    <img src="./imgs/Rectangle 37.png" alt="">
+                    <div class="lastest_item_container">
+                        <h1 class="lastest_item_title">Former Blackboard CEO Raises $16M to <br>Bring LMS Features to Zoom Classrooms</h1>
+                        <p class="lastest_item_subtitle">This year, investors have reaped big <br>financial returns from betting on Zoom...</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </main>
+    <footer>
+        <div class="footer_container">
+            <img class="footer_img" src="./imgs/Group 112.png" alt="">
+            <p class="footer_subtitle">Virtual Class <br>for Zoom</p>
+        </div>
+        <h1 class="footer_title">Subscribe to get our Newsletter</h1>
+        <form action="">
+            <input class="footer_search" type="email" placeholder="Your Email" required>
+            <button class="footer_btn">Subscribe</button>
+        </form>
+        <p class="copyright">2025 Egor Copyright</p>
+    </footer>
 </body>
 </html>
